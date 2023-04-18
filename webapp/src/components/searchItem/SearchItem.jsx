@@ -38,7 +38,7 @@ const SearchItem = (props) => {
         <div className="siDetailTexts">
           <span className="siPrice">Rs. {props.price}</span>
           <button className="siCheckButton" onClick={availableRoomsHandeler}>{availableRooms}</button>
-          <button className="siBookButton" onClick={()=> navigate('/form')}>Book Now</button>
+          <button className="siBookButton" onClick={()=> navigate('/webapp/form')}>Book Now</button>
         </div>
       </div>
     </div>
